@@ -4,7 +4,9 @@
  */
 import { actionTypes } from '../action';
 
-let initState = {};
+let initState = {
+  userInfo: [] || {},
+};
 
 const reducer = (state = initState, action) => {
   switch (action.type) {
