@@ -45,6 +45,7 @@ function Tabs() {
         },
       })}
       tabBarOptions={{
+        allowFontScaling: false,
         activeTintColor: 'tomato',
         inactiveTintColor: 'gray',
       }}>
